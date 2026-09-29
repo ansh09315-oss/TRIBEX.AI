@@ -1,7 +1,9 @@
 # TribeX AI: An Offline-First, AI-Driven Unified Tribal Scholarship Ecosystem
 
 > **Designed for the Ministry of Tribal Affairs (MoTA), Government of India**  
-> **Official Repository:** [https://github.com/ansh09315-oss/TRIBEX.AI](https://github.com/ansh09315-oss/TRIBEX.AI)
+> **Official Repository:** [https://github.com/ansh09315-oss/TRIBEX.AI](https://github.com/ansh09315-oss/TRIBEX.AI)  
+> **Live Production URL:** [https://tribex-ai-three.vercel.app](https://tribex-ai-three.vercel.app)  
+> **Deployment Status:** [![Vercel Deployment](https://img.shields.io/badge/Vercel-Production%20Live-black?style=flat-square&logo=vercel)](https://tribex-ai-three.vercel.app)
 
 ---
 
