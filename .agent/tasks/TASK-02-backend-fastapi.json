@@ -1,0 +1,34 @@
+{
+  "id": "TASK-02",
+  "title": "FastAPI High-Throughput Microservice API",
+  "status": "pending",
+  "requirements": [
+    "POST /api/v1/zkp/verify: Zero-Knowledge cryptographic verification",
+    "POST /api/v1/cross-check/deduplicate: SHA-256 identifier cross-check across MoTA/AICTE/State",
+    "POST /api/v1/applications/batch-sync: Process offline P2P BLE mesh batch uploads",
+    "GET /api/v1/sla/status/{id} & POST /api/v1/sla/auto-escalate: 7-day countdown & tier escalation",
+    "GET /api/v1/analytics/pvtg-dropout-risk: Regional retention analytics and predictions",
+    "Pydantic v2 schemas and SQLAlchemy async database models",
+    "CORS configuration for http://localhost:5173"
+  ],
+  "deliverables": [
+    "backend/requirements.txt",
+    "backend/Dockerfile",
+    "backend/app/main.py",
+    "backend/app/core/config.py",
+    "backend/app/core/security.py",
+    "backend/app/core/database.py",
+    "backend/app/models/student.py",
+    "backend/app/models/application.py",
+    "backend/app/models/escalation.py",
+    "backend/app/schemas/application.py",
+    "backend/app/services/mesh_sync_service.py",
+    "backend/app/services/ml_predict_service.py",
+    "backend/app/api/v1/endpoints/zkp_verify.py",
+    "backend/app/api/v1/endpoints/deduplication.py",
+    "backend/app/api/v1/endpoints/application.py",
+    "backend/app/api/v1/endpoints/sla_engine.py",
+    "backend/app/api/v1/endpoints/analytics.py",
+    "backend/app/api/v1/api_router.py"
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "id": "TASK-03",
+  "title": "React + TypeScript PWA Frontend Client",
+  "status": "pending",
+  "requirements": [
+    "VoiceFormWizard.tsx: Multilingual audio visualizer and speech-to-form parser",
+    "BleMeshSimulator.tsx: Offline forest filing and multi-hop node hop visualizer",
+    "ZkpVerifierCard.tsx: Single-click instant ZKP verification badge",
+    "SlaTimelineTracker.tsx: E-commerce style milestone tracker & 7-day countdown",
+    "DeduplicationHub.tsx: Hashed identifier cross-check and fraud locking table",
+    "PvtgDropoutHeatmap.tsx: Predictive retention charts and early intervention trigger",
+    "Landing.tsx, ApplicantPortal.tsx, MinistryDashboard.tsx pages",
+    "useOfflineStorage.ts, useVoiceRecognition.ts, api.ts",
+    "PWA manifest.json and Service Worker sw.js"
+  ],
+  "deliverables": [
+    "frontend/public/manifest.json",
+    "frontend/public/sw.js",
+    "frontend/src/components/VoiceFormWizard.tsx",
+    "frontend/src/components/BleMeshSimulator.tsx",
+    "frontend/src/components/ZkpVerifierCard.tsx",
+    "frontend/src/components/SlaTimelineTracker.tsx",
+    "frontend/src/components/DeduplicationHub.tsx",
+    "frontend/src/components/PvtgDropoutHeatmap.tsx",
+    "frontend/src/pages/Landing.tsx",
+    "frontend/src/pages/ApplicantPortal.tsx",
+    "frontend/src/pages/MinistryDashboard.tsx",
+    "frontend/src/hooks/useOfflineStorage.ts",
+    "frontend/src/hooks/useVoiceRecognition.ts",
+    "frontend/src/services/api.ts",
+    "frontend/src/App.tsx",
+    "frontend/src/main.tsx",
+    "frontend/src/index.css",
+    "frontend/package.json",
+    "frontend/tailwind.config.js",
+    "frontend/vite.config.ts"
+  ]
+}

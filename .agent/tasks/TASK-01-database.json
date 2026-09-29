@@ -1,0 +1,16 @@
+{
+  "id": "TASK-01",
+  "title": "PostgreSQL Schema, Enums, Indexes & Seed Data",
+  "status": "pending",
+  "requirements": [
+    "Enable uuid-ossp and pgcrypto extensions",
+    "Create ENUMs: application_status, scheme_type, user_role",
+    "Create tables: applicants, hashed_identities, applications, sla_tracking, pvtg_retention_metrics",
+    "Add B-Tree indexes on aadhaar_sha256, current_stage, deadline_timestamp",
+    "Provide seed_mock_data.sql with realistic data for 5 tribal students, 2 duplicate fraud cases, and SLA records"
+  ],
+  "deliverables": [
+    "database/init.sql",
+    "database/seed_mock_data.sql"
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "id": "TASK-04",
+  "title": "Containerization & Cloud Production Deployment",
+  "status": "pending",
+  "requirements": [
+    "docker-compose.yml: Postgres 16 Alpine, Redis, FastAPI Backend, React Frontend",
+    "deployment/nginx.conf: Reverse proxy routing /api to FastAPI and / to React SPA",
+    "deployment/netlify.toml: Build commands and SPA redirects",
+    "README.md: Comprehensive setup guide and architectural documentation"
+  ],
+  "deliverables": [
+    "deployment/docker-compose.yml",
+    "deployment/nginx.conf",
+    "deployment/netlify.toml",
+    "README.md"
+  ]
+}
